@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - a program to print unordered combinations of two digit integers.
  * Return:0 (Success)
