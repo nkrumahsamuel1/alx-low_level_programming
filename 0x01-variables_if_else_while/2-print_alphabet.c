@@ -1,34 +1,19 @@
 #include <stdio.h>
-#include <stdio.h>
-
 /**
- * main - a program to print unordered combinations of two digit integers.
- * Return:0 (Success)
- */
+* main - a program to print all alphabet letters.
+* Return: 0 (Success)
+*/
 
 int main(void)
 {
-int x, y;
+char letter;
 
-for (x = 0; x < 100; x++)
+for (letter = 'a'; letter <= 'z'; ++letter)
 {
-for (y = 0; y < 100; y++)
-{
-if (x < y)
-{
-putchar((x / 10) + 48);
-putchar((x % 10) + 48);
-putchar(' ');
-putchar((y / 10) + 48);
-putchar((y % 10) + 48);
-if (x != 98 || y != 99)
-{
-putchar(',');
-putchar(' ');
+putchar(letter);
 }
-}
-}
-}
+
 putchar('\n');
+
 return (0);
 }
