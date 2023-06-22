@@ -8,8 +8,7 @@
 void print_alphabet_x10(void)
 {
 char c;
-int i;
-i = 0;
+int i = 0;
 
 while (i <= 9)
 {
@@ -22,4 +21,4 @@ _putchar('\n');
 
 i++;
 }
-
+}
